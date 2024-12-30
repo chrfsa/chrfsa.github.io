@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="cheurfa mohand said">Mohand Said Cheurfa</h1>
+
+          <p class="title">Étudiant Data/AI</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">cheurfamohandsaid06@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+33 759 85 81 06</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">janvier 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Paris, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href=https://www.linkedin.com/in/mohand-said-cheurfa-5b63aa1ba/ class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+          <li class="social-item">
+            <a href="https://github.com/chrfsa" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Passionné par l'IA, le machine learning et la puissance des données, je crois fermement qu'une donnée de haute qualité combinée à des modèles optimisés surpasse les approches les plus complexes basées sur des données médiocres. Mon ambition est de créer des solutions où ingénierie des données, optimisation des modèles et développement logiciel s'unissent pour des résultats innovants et impactants. Avec une attention constante aux enjeux business, je m'efforce de transformer les données en leviers stratégiques, rendant l'accès à l'IA simple, efficace et porteur de valeur.  
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Dev</h4>
+
+                <p class="service-item-text">
+                  Je développe avec passion ce que j'aime : l'IA."
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+             
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Dev</h4>
+
+                <p class="service-item-text">
+                  Modèles IA rendus accessibles par API et Web.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+             
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML</h4>
+
+                <p class="service-item-text">
+                  J'explore les données pour créer des modèles intelligents.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data</h4>
+
+                <p class="service-item-text">
+                  Transformer les données en valeur.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+
+            
+
+          </section>
+
+        </div>
+
+
+        
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <div class="download-cv">
+          <a href="Mohand-Said_CHEURFA.pdf" download class="btn-download">
+            <span class="icon">
+              <ion-icon name="cloud-download-outline"></ion-icon>
+            </span>
+            Télécharger mon CV
+          </a>
+        </div>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">FORMATIONS</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Université Sorbonne Paris Nord</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                En Master 2 Exploration informatique des données et décisionnel à l'Université Sorbonne Paris Nord, je développe des compétences en gestion des données, machine learning, deep learning et statistiques, tout en prenant en compte les exigences business pour résoudre les cas d’usage métier. Mon apprentissage inclut les architectures modernes (data warehouse, data lake) et me permet de transformer des données brutes en informations stratégiques, optimisant ainsi des modèles prédictifs et explorant les avancées de l’intelligence artificielle pour répondre aux besoins spécifiques des entreprises. </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ecole européenne des métiers de l'internet EEMI | Paris</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                Au cours de ma formation en développement web à l'EEMI, j'ai acquis une solide base de connaissances et de compétences en technologies web, couvrant des concepts de base aux techniques avancées, et développant une compréhension approfondie de l'écosystème web moderne.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Université de Béjaia</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Pendant mon Master en Intelligence Artificielle, j'ai approfondi mes connaissances sur les différentes technologies de l'IA et réalisé des recherches académiques, ce qui m'a permis de bien comprendre les aspects théoriques et le fonctionnement interne des modèles de machine learning (ML) et de deep learning (DL).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Université de Béjaia</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                Durant ma Licence en Informatique Générale, j'ai acquis une compréhension globale des fondamentaux de l'informatique et exploré diverses spécialisations. Cette formation m'a permis de développer une vision d'ensemble du domaine informatique et d'identifier mon intérêt particulier pour l'intelligence artificielle (IA).
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python (tensorflow, pandas, polars, numpy, matplotlib, fastapi, langchain, crewai, streamlit, gradio, scikit-learn)</h5>
+                
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Base de données (Oracle, postgresql, mongodb)
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">visualisation des données (Tableau, Power Bi)</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DevOps (Git/Github, Docker, Test Unitaire, initial CI/CD)</h5>
+             
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/chrfsa/postgres_with_bash">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/postgresql.jpg" alt="Postgresql with shell" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">postgresql with shell</h3>
+
+                <p class="project-category">Base de données</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/chrfsa/sentiments_analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sa.png" alt="Sentiments analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sentiments analysis</h3>
+
+                <p class="project-category">Transfer Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/chrfsa/RAG">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/chatbot.png" alt="AngelAI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AngelAI</h3>
+
+                <p class="project-category">Chatbot with RAG</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/chrfsa/dignosAI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dignosai.png" alt="DiagnosAI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DiagnosAI</h3>
+
+                <p class="project-category">AI with agents</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/chrfsa/cancer_predict_with_ml.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Capture d’écran du 2024-07-11 19-15-08.png" alt="cancer_predict_with_ml" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cancer predict</h3>
+
+                <p class="project-category">ML With Streamlit interface</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
