@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://chrfsa.github.io/portfolio/sitemap.xml
+Sitemap: https://chrfsa.github.io/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
