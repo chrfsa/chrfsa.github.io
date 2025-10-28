@@ -481,6 +481,10 @@ article {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+article {
+  padding-top: 80px;
+}
+
 .sidebar:hover,
 article:hover {
   transform: translateY(-2px);
@@ -800,13 +804,13 @@ main {
 
 .navbar {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(240, 1%, 17%, 0.95);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+  border-radius: 0 0 12px 12px;
   box-shadow: var(--shadow-2);
   z-index: 5;
   display: flex;
@@ -1923,7 +1927,7 @@ body[data-theme="dark"] .theme-toggle .sun-icon {
    * #NAVBAR
    */
 
-  .navbar { border-radius: 20px 20px 0 0; }
+  .navbar { border-radius: 0 0 20px 20px; }
 
   .navbar-list { gap: 20px; }
 
@@ -2169,7 +2173,7 @@ body[data-theme="dark"] .theme-toggle .sun-icon {
     left: auto;
     right: 0;
     width: max-content;
-    border-radius: 0 20px;
+    border-radius: 0 0 0 20px;
     padding: 0 20px;
     box-shadow: none;
   }
@@ -2177,6 +2181,10 @@ body[data-theme="dark"] .theme-toggle .sun-icon {
   .navbar-list {
     gap: 30px;
     padding: 0 20px;
+  }
+
+  article {
+    padding-top: 15px;
   }
 
   .navbar-link { font-weight: var(--fw-500); }
