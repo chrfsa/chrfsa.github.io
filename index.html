@@ -59,12 +59,18 @@
 
 <body data-theme="dark">
   
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" id="scroll-progress"></div>
+  
   <!-- Custom Cursor -->
   <div class="cursor-inner" id="cursor-inner"></div>
   <div class="cursor-outer" id="cursor-outer"></div>
 
   <!-- Preloader -->
   <div id="preloader"></div>
+  
+  <!-- Particles Background -->
+  <div class="particles-container" id="particles"></div>
 
   <header>
     <!-- Navbar -->
@@ -187,6 +193,11 @@
         </p>
 
         <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <a href="mailto:contact@msaid-cheurfa.dev" class="hire-me-btn neon-btn">
+            <span class="btn-text">Hire Me</span>
+            <span class="btn-icon">💼</span>
+          </a>
+
           <a href="https://chat.msaid-cheurfa.dev" target="_blank" class="chat-btn">
             <div class="chat-btn-text">Chat with me</div>
             <div class="chat-btn-BG"></div>
@@ -199,7 +210,7 @@
               </svg>
             </div>
             <div class="text">Resume</div>
-          </button>
+        </button>
         </div>
       </div>
     </section>
@@ -271,6 +282,94 @@
         <div class="section-heading" data-aos="fade-up">
           <h2 class="section-heading-article">&#60;/Resume&#62;</h2>
           <p class="sectionHeadingP"></p>
+        </div>
+
+        <!-- Stats Counter Section -->
+        <div class="stats-section" data-aos="fade-up">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon">🎯</div>
+              <div class="stat-number" data-target="18">0</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">⚡</div>
+              <div class="stat-number" data-target="1">0</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🏆</div>
+              <div class="stat-number" data-target="5">0</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Section with Progress Bars -->
+        <div class="skills-section">
+          <h3 class="skills-heading" data-aos="fade-up">Core Skills</h3>
+          
+          <div class="skills-wrapper">
+            <div class="skill-item" data-aos="fade-right">
+              <div class="skill-info">
+                <span class="skill-name">Python & ML</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="95"></div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="100">
+              <div class="skill-info">
+                <span class="skill-name">Deep Learning</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="200">
+              <div class="skill-info">
+                <span class="skill-name">LLMs & RAG</span>
+                <span class="skill-percentage">88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="88"></div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="300">
+              <div class="skill-info">
+                <span class="skill-name">Data Engineering</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="400">
+              <div class="skill-info">
+                <span class="skill-name">MLOps & DevOps</span>
+                <span class="skill-percentage">82%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="82"></div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="500">
+              <div class="skill-info">
+                <span class="skill-name">Cloud & Docker</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80"></div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Tech Stack -->
