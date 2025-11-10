@@ -580,6 +580,11 @@ main {
     align-items: flex-start;
     color: var(--color-white);
     flex-wrap: wrap;
+    gap: 5px;
+}
+
+#work div {
+    display: flex;
 }
 
 .jello:hover {
@@ -1432,7 +1437,7 @@ footer {
     .resume-section,
     .portfolio-section,
     .blog-section {
-        width: 80%;
+        width: 85%;
     }
 
     .info-dp-section {
@@ -1447,6 +1452,11 @@ footer {
     .dp {
         align-items: center;
         justify-content: center;
+        margin-top: 30px;
+    }
+
+    .dp img {
+        width: 250px;
     }
 
     .services-grid,
@@ -1919,33 +1929,381 @@ footer {
    =================================== */
 
 @media screen and (max-width: 998px) {
+    /* Hide cursor on tablets and mobile */
+    .cursor-inner,
+    .cursor-outer {
+        display: none !important;
+    }
+
+    /* Stats section */
+    .stats-section {
+        margin: 50px 0;
+    }
+
     .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
     }
 
     .stat-card {
-        padding: 30px 15px;
+        padding: 25px 10px;
+    }
+
+    .stat-icon {
+        font-size: 3rem;
     }
 
     .stat-number {
-        font-size: 3.5rem;
+        font-size: 3rem;
+    }
+
+    .stat-label {
+        font-size: 1.4rem;
+    }
+
+    /* Buttons section */
+    .contact-btn-div {
+        flex-direction: column;
+        align-items: stretch !important;
+        gap: 15px;
+        width: 100%;
     }
 
     .hire-me-btn {
-        padding: 12px 30px;
+        width: 100%;
+        justify-content: center;
+        padding: 15px 20px;
         font-size: 1.6rem;
+    }
+
+    .chat-btn {
+        width: 100%;
+    }
+
+    .resume-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Disable 3D effects on mobile */
+    .project-card,
+    .blog-card,
+    .service-card {
+        transform-style: flat !important;
+    }
+
+    .project-card:hover,
+    .blog-card:hover,
+    .service-card:hover {
+        transform: translateY(-5px) !important;
+    }
+
+    /* Skills section */
+    .skills-section {
+        margin: 50px 0;
+    }
+
+    .skills-heading {
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+    }
+
+    /* Services grid */
+    .services-section {
+        margin-top: 50px;
+    }
+
+    .services-heading {
+        font-size: 2.2rem;
+    }
+
+    /* Reduce particle count */
+    .particles-container {
+        opacity: 0.3;
     }
 }
 
 @media screen and (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    /* Landing section */
+    #hello-friend {
+        font-size: 3rem;
+    }
+
+    #name {
+        font-size: 6rem;
+    }
+
+    #work {
+        font-size: 4rem;
+    }
+
+    #info-para {
+        width: 100%;
+        font-size: 1.8rem;
+        line-height: 26px;
+    }
+
+    /* Stats - Stack vertically on small screens */
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 25px 15px;
+    }
+
+    /* Skills section */
     .skills-wrapper {
-        gap: 25px;
+        gap: 20px;
     }
 
     .skill-name,
     .skill-percentage {
+        font-size: 1.5rem;
+    }
+
+    .skill-bar {
+        height: 10px;
+    }
+
+    /* Tech stack */
+    .tech-heading,
+    .experience-heading,
+    .education-heading {
+        font-size: 2rem;
+    }
+
+    .tech-stack-box {
+        padding: 12px 20px;
+    }
+
+    .tech-badge {
+        font-size: 1.4rem;
+    }
+
+    /* Timeline */
+    .timeline-wrapper {
+        padding-left: 30px;
+    }
+
+    .timeline-dot {
+        left: -38px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .timeline-content h4 {
+        font-size: 1.8rem;
+    }
+
+    .timeline-period {
+        font-size: 1.3rem;
+    }
+
+    .timeline-content p {
+        font-size: 1.5rem;
+    }
+
+    /* Projects and blog */
+    .project-content h3,
+    .blog-content h3 {
+        font-size: 2rem;
+    }
+
+    .project-tags,
+    .blog-category {
+        font-size: 1.3rem;
+    }
+
+    .project-description,
+    .blog-content p {
+        font-size: 1.5rem;
+    }
+
+    /* About section */
+    .about-info p {
         font-size: 1.6rem;
+        line-height: 26px;
+    }
+
+    .service-card h4 {
+        font-size: 1.8rem;
+    }
+
+    .service-card p {
+        font-size: 1.5rem;
+    }
+
+    /* Reduce animations on mobile for performance */
+    .stat-icon {
+        animation: none;
+    }
+
+    .skill-progress::after {
+        animation: none;
+    }
+
+    /* Sections spacing */
+    .about-section-container,
+    .resume-section-container,
+    .portfolio-section-container,
+    .blog-section-container {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* Very small screens */
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #name {
+        font-size: 5rem;
+    }
+
+    #work {
+        font-size: 3.5rem;
+    }
+
+    /* Navbar */
+    .navbar {
+        width: 90%;
+        height: 70px;
+    }
+
+    .hamburgerbase {
+        width: 90%;
+    }
+
+    /* Section headings */
+    .section-heading-article {
+        font-size: 2.5rem;
+    }
+
+    .sectionHeadingP {
+        width: 150px;
+    }
+
+    /* Footer */
+    .two-words article {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .footer-bottom article {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+
+    /* Landing */
+    #hello-friend {
+        font-size: 2.5rem;
+    }
+
+    #name {
+        font-size: 4.5rem;
+    }
+
+    #work {
+        font-size: 3rem;
+    }
+
+    .contact-btn-div {
+        padding-top: 30px;
+    }
+
+    /* Stats */
+    .stat-number {
+        font-size: 2.8rem;
+    }
+
+    .stat-label {
+        font-size: 1.3rem;
+    }
+
+    /* Skills */
+    .skills-heading {
+        font-size: 2rem;
+    }
+
+    .skill-name,
+    .skill-percentage {
+        font-size: 1.4rem;
+    }
+
+    /* Buttons */
+    .hire-me-btn,
+    .chat-btn {
+        padding: 12px 20px;
+        font-size: 1.5rem;
+    }
+
+    .btn-icon {
+        font-size: 1.8rem;
+    }
+
+    /* Tech stack */
+    .tech-category h4 {
+        font-size: 1.8rem;
+    }
+
+    .tech-badge {
+        font-size: 1.3rem;
+    }
+
+    /* Services */
+    .service-icon {
+        font-size: 3.5rem;
+    }
+
+    .service-card h4 {
+        font-size: 1.7rem;
+    }
+
+    .service-card p {
+        font-size: 1.4rem;
+    }
+
+    /* Timeline */
+    .timeline-content h4 {
+        font-size: 1.7rem;
+    }
+
+    .timeline-content p {
+        font-size: 1.4rem;
+    }
+
+    /* Projects/Blog */
+    .project-image,
+    .blog-image {
+        height: 200px;
+    }
+
+    /* Disable parallax on very small screens */
+    .parallax {
+        transform: translateY(0) !important;
+    }
+
+    section {
+        transform: translateY(0) !important;
+    }
+
+    .blob {
+        transform: translate(0, 0) !important;
     }
 }
 

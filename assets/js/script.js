@@ -303,7 +303,11 @@ function createParticles() {
     const particlesContainer = document.getElementById('particles');
     if (!particlesContainer) return;
 
-    const particleCount = 30;
+    // Detect if mobile
+    const isMobile = window.innerWidth <= 998;
+    
+    // Reduce particle count on mobile for better performance
+    const particleCount = isMobile ? 10 : 30;
 
     for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement('div');
@@ -317,8 +321,8 @@ function createParticles() {
         particle.style.width = size + 'px';
         particle.style.height = size + 'px';
         
-        // Random animation duration
-        const duration = Math.random() * 20 + 15;
+        // Random animation duration (slower on mobile)
+        const duration = isMobile ? Math.random() * 30 + 20 : Math.random() * 20 + 15;
         particle.style.animationDuration = duration + 's';
         
         // Random delay
@@ -340,6 +344,9 @@ createParticles();
 // ===================================
 
 function handleParallax() {
+    // Disable parallax on mobile for better performance
+    if (window.innerWidth <= 768) return;
+    
     const scrolled = window.scrollY;
     
     // Parallax on sections
@@ -370,7 +377,10 @@ function debounce(func, wait) {
     };
 }
 
-window.addEventListener('scroll', debounce(handleParallax, 10));
+// Only enable parallax on desktop
+if (window.innerWidth > 768) {
+    window.addEventListener('scroll', debounce(handleParallax, 10));
+}
 
 // ===================================
 // TYPING EFFECT ON TITLE
@@ -414,6 +424,9 @@ window.addEventListener('load', () => {
 // ===================================
 
 function add3DTilt() {
+    // Disable 3D tilt on mobile/tablet devices
+    if (window.innerWidth <= 998) return;
+    
     const cards = document.querySelectorAll('.project-card, .blog-card, .service-card');
     
     cards.forEach((card) => {
@@ -437,7 +450,7 @@ function add3DTilt() {
     });
 }
 
-// Initialize 3D tilt
+// Initialize 3D tilt only on desktop
 add3DTilt();
 
 // ===================================
