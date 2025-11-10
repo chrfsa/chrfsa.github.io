@@ -531,9 +531,16 @@ document.head.appendChild(toastStyle);
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
-// Check for saved theme preference or default to dark mode
-const savedTheme = localStorage.getItem('theme') || 'dark';
-body.setAttribute('data-theme', savedTheme);
+// Force dark mode as default (reset any previous preference)
+// If you want to remember user preference, use: localStorage.getItem('theme') || 'dark'
+const savedTheme = localStorage.getItem('theme');
+if (!savedTheme || savedTheme === 'light') {
+  // Set dark mode as default
+  body.setAttribute('data-theme', 'dark');
+  localStorage.setItem('theme', 'dark');
+} else {
+  body.setAttribute('data-theme', savedTheme);
+}
 
 // Update toggle button state based on current theme
 function updateToggleButton() {
