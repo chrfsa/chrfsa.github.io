@@ -2,957 +2,575 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#11111b" />
   
-  <!-- SEO Meta Tags -->
-  <title>Mohand Said Cheurfa - Ingénieur IA & Data Scientist | Portfolio Paris</title>
-  <meta name="description" content="Mohand Said Cheurfa, Ingénieur IA et Data Scientist basé à Paris. Expert en Machine Learning, Deep Learning, LLMs, RAG et systèmes multi-agents. Portfolio projets IA et Data Science.">
-  <meta name="keywords" content="Mohand Said Cheurfa, AI Engineer, Data Scientist, Machine Learning, Deep Learning, LLMs, RAG, Multi-Agent Systems, Paris, Ingénieur IA, TensorFlow, PyTorch, Python, Portfolio IA">
-  <meta name="author" content="Mohand Said Cheurfa">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="French">
-  <meta name="revisit-after" content="7 days">
+  <!-- SEO Meta Tags - Bilingual FR/EN -->
+  <title>Mohand Said Cheurfa - AI Engineer & Data Scientist | Ingénieur IA & Data Scientist | Portfolio Paris</title>
+  <meta name="description" content="Mohand Said Cheurfa - AI Engineer & Data Scientist based in Paris. Expert in Machine Learning, Deep Learning, LLMs, RAG & Multi-Agent Systems. | Ingénieur IA et Data Scientist basé à Paris. Expert en Machine Learning, Deep Learning, LLMs, RAG et systèmes multi-agents." />
+  <meta name="keywords" content="Mohand Said Cheurfa, AI Engineer, Data Scientist, Ingénieur IA, Machine Learning, Deep Learning, LLMs, RAG, Multi-Agent Systems, Systèmes Multi-Agents, Paris, TensorFlow, PyTorch, Python, Portfolio IA, Intelligence Artificielle, Artificial Intelligence, MLOps, Data Engineering" />
+  <meta name="author" content="Mohand Said Cheurfa" />
   
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://chrfsa.github.io/">
-  <meta property="og:title" content="Mohand Said Cheurfa - Ingénieur IA & Data Scientist">
-  <meta property="og:description" content="Portfolio de Mohand Said Cheurfa - Expert en IA, Machine Learning et Data Science basé à Paris">
-  <meta property="og:image" content="https://chrfsa.github.io/assets/images/my-avatar.png">
-  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://portfolio.msaid-cheurfa.dev/" />
+  <meta property="og:site_name" content="Mohand Said Cheurfa Portfolio" />
+  <meta property="og:title" content="Mohand Said Cheurfa - AI Engineer & Data Scientist | Ingénieur IA" />
+  <meta property="og:description" content="AI Engineer & Data Scientist passionate about building production-ready AI systems | Ingénieur IA passionné par la création de systèmes d'IA prêts pour la production" />
+  <meta property="og:image" content="https://portfolio.msaid-cheurfa.dev/assets/images/my-avatar.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:locale:alternate" content="en_US" />
   
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://chrfsa.github.io/">
-  <meta property="twitter:title" content="Mohand Said Cheurfa - Ingénieur IA & Data Scientist">
-  <meta property="twitter:description" content="Portfolio de Mohand Said Cheurfa - Expert en IA, Machine Learning et Data Science">
-  <meta property="twitter:image" content="https://chrfsa.github.io/assets/images/my-avatar.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@msaidcheurfa" />
+  <meta name="twitter:creator" content="@msaidcheurfa" />
+  <meta name="twitter:title" content="Mohand Said Cheurfa - AI Engineer & Data Scientist" />
+  <meta name="twitter:description" content="AI Engineer & Data Scientist | Expert in ML, DL, LLMs & RAG Systems" />
+  <meta name="twitter:image" content="https://portfolio.msaid-cheurfa.dev/assets/images/my-avatar.png" />
   
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://chrfsa.github.io/">
+  <link rel="canonical" href="https://portfolio.msaid-cheurfa.dev/" />
+  
+  <!-- Alternate Language Links -->
+  <link rel="alternate" hreflang="fr" href="https://portfolio.msaid-cheurfa.dev/" />
+  <link rel="alternate" hreflang="en" href="https://portfolio.msaid-cheurfa.dev/" />
+  <link rel="alternate" hreflang="x-default" href="https://portfolio.msaid-cheurfa.dev/" />
   
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+  <link rel="icon" type="image/png" href="./assets/images/my-avatar.png" />
+  
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Structured Data / Schema.org for Google -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Mohand Said Cheurfa",
-    "jobTitle": "AI Engineer & Data Scientist",
-    "description": "Expert en Intelligence Artificielle, Machine Learning et Data Science",
-    "url": "https://chrfsa.github.io/",
-    "image": "https://chrfsa.github.io/assets/images/my-avatar.png",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Paris",
-      "addressCountry": "France"
-    },
-    "email": "cheurfamohandsaid06@gmail.com",
-    "telephone": "+33759858106",
-    "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Deep Learning", "Data Science", "Python", "TensorFlow", "PyTorch", "LLMs", "RAG Systems"],
-    "alumniOf": [
-      {
-        "@type": "EducationalOrganization",
-        "name": "Sorbonne Paris Nord University"
-      },
-      {
-        "@type": "EducationalOrganization",
-        "name": "University of Bejaia"
-      }
-    ],
-    "sameAs": [
-      "https://www.linkedin.com/in/mohand-said-cheurfa-5b63aa1ba/",
-      "https://github.com/chrfsa",
-      "https://medium.com/@chrfsa19"
-    ]
-  }
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body data-theme="dark">
-
-  <!-- PRELOADER -->
-  <div id="preloader">
-    <div class="preloader-content">
-      <div class="logo-container">
-        <div class="logo-text">
-          <span class="letter">M</span>
-          <span class="letter">S</span>
-          <span class="letter">C</span>
-        </div>
-        <div class="logo-subtitle">AI Engineer</div>
-      </div>
-      <div class="loading-bar">
-        <div class="loading-progress"></div>
-      </div>
-      <div class="loading-text">Initializing...</div>
-      <div class="particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- MAIN -->
-  <main>
-
-    <!-- SIDEBAR -->
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Mohand Said Cheurfa" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Mohand Said Cheurfa">Mohand Said Cheurfa</h1>
-          <p class="title">AI Engineer & Data Scientist</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:cheurfamohandsaid06@gmail.com" class="contact-link">cheurfamohandsaid06@gmail.com</a>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-              <a href="tel:+33759858106" class="contact-link">+33 7 59 85 81 06</a>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-              <time datetime="2000-01">January 2000</time>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Paris, France</address>
-            </div>
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/mohand-said-cheurfa-5b63aa1ba/" class="social-link" target="_blank" rel="noopener">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://github.com/chrfsa" class="social-link" target="_blank" rel="noopener">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <!-- MAIN CONTENT -->
-    <div class="main-content">
-
-      <!-- NAVBAR -->
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>About</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-        </ul>
-
-        <!-- Theme Toggle -->
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-          <span class="theme-toggle-icon">
-            <ion-icon name="moon-outline" class="moon-icon"></ion-icon>
-            <ion-icon name="sunny-outline" class="sun-icon"></ion-icon>
-          </span>
-        </button>
-      </nav>
-
-      <!-- ABOUT -->
-      <article class="about active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <!-- Chat with me button -->
-        <div class="chat-button-container">
-          <a href="https://chat.msaid-cheurfa.dev" target="_blank" rel="noopener noreferrer" class="btn-chat">
-            <ion-icon name="chatbubbles-outline"></ion-icon>
-            Chat with me
-          </a>
-        </div>
-
-        <section class="about-text">
-          <p>
-            <strong>AI Engineer & Data Scientist</strong> passionate about building production-ready AI systems that transcend proof-of-concepts. I architect scalable solutions where artificial intelligence, software engineering, and data engineering converge to create real business impact.
-          </p>
-          
-          <p>
-            My core belief: <em>"AI is powerless alone—it's the trinity of quality data, intelligent models, and robust software architecture that creates exceptional products."</em> I don't just train models; I engineer complete AI systems designed for scale, maintainability, and production excellence.
-          </p>
-          
-          <p>
-            I thrive at the intersection of three disciplines: crafting machine learning solutions, building solid software architectures, and engineering data pipelines that fuel AI. My passion lies in integrating AI seamlessly into products through MLOps best practices, treating data as the foundation and software engineering as the framework that brings AI to life.
-          </p>
-          
-          <p>
-            <strong>Beyond POCs, towards production:</strong> I think scalability-first, architect for maintainability, and deliver AI solutions that stand the test of real-world deployment. From data engineering to model serving, I master the entire AI value chain with a pragmatic, production-oriented mindset.
-          </p>
-        </section>
-
-        <!-- SERVICES -->
-        <section class="service">
-
-          <h3 class="h3 service-title">What I do</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <ion-icon name="rocket-outline"></ion-icon>
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI Engineering</h4>
-                <p class="service-item-text">
-                  End-to-end AI solution design and deployment: from prototyping to production with MLOps best practices and scalable architectures.
-                </p>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <ion-icon name="analytics-outline"></ion-icon>
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Science</h4>
-                <p class="service-item-text">
-                  Exploratory analysis, predictive modeling, and actionable insights extraction to drive data-informed business decisions.
-                </p>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <ion-icon name="server-outline"></ion-icon>
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Engineering</h4>
-                <p class="service-item-text">
-                  Robust and scalable data pipeline architecture: ETL, data lakes, data warehouses, and real-time streaming solutions.
-                </p>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <ion-icon name="code-slash-outline"></ion-icon>
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">ML/DL Development</h4>
-                <p class="service-item-text">
-                  Custom model development: NLP, Computer Vision, LLMs, RAG systems, multi-agent architectures, and REST API deployment.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-        <!-- TECH STACK -->
-        <section class="tech-stack">
-          <h3 class="h3">Technologies & Tools</h3>
-          
-          <div class="tech-categories">
-            
-            <div class="tech-category">
-              <h4 class="h4">Machine Learning & Deep Learning</h4>
-              <div class="tech-badges">
-                <span class="tech-badge">TensorFlow</span>
-                <span class="tech-badge">PyTorch</span>
-                <span class="tech-badge">Scikit-learn</span>
-                <span class="tech-badge">XGBoost</span>
-                <span class="tech-badge">Keras</span>
-                <span class="tech-badge">Hugging Face</span>
-              </div>
-            </div>
-            
-            <div class="tech-category">
-              <h4 class="h4">LLMs & AI Frameworks</h4>
-              <div class="tech-badges">
-                <span class="tech-badge">LangChain</span>
-                <span class="tech-badge">LangGraph</span>
-                <span class="tech-badge">LangSmith</span>
-                <span class="tech-badge">CrewAI</span>
-                <span class="tech-badge">OpenAI API</span>
-                <span class="tech-badge">RAG Systems</span>
-              </div>
-            </div>
-            
-            <div class="tech-category">
-              <h4 class="h4">Data Engineering & Processing</h4>
-              <div class="tech-badges">
-                <span class="tech-badge">Pandas</span>
-                <span class="tech-badge">Polars</span>
-                <span class="tech-badge">NumPy</span>
-                <span class="tech-badge">Apache Spark</span>
-                <span class="tech-badge">Airflow</span>
-              </div>
-            </div>
-            
-            <div class="tech-category">
-              <h4 class="h4">Databases</h4>
-              <div class="tech-badges">
-                <span class="tech-badge">PostgreSQL</span>
-                <span class="tech-badge">MongoDB</span>
-                <span class="tech-badge">Oracle</span>
-                <span class="tech-badge">Supabase</span>
-                <span class="tech-badge">Redis</span>
-                <span class="tech-badge">Vector DBs</span>
-              </div>
-            </div>
-            
-            <div class="tech-category">
-              <h4 class="h4">MLOps & Deployment</h4>
-              <div class="tech-badges">
-                <span class="tech-badge">Docker</span>
-                <span class="tech-badge">Git/GitHub</span>
-                <span class="tech-badge">FastAPI</span>
-                <span class="tech-badge">Streamlit</span>
-                <span class="tech-badge">MLflow</span>
-                <span class="tech-badge">Celery</span>
-                <span class="tech-badge">Grafana</span>
-              </div>
-            </div>
-            
-            <div class="tech-category">
-              <h4 class="h4">Cloud & Infrastructure</h4>
-              <div class="tech-badges">
-                <span class="tech-badge">AWS EC2</span>
-                <span class="tech-badge">AWS S3</span>
-                <span class="tech-badge">AWS Glue</span>
-                <span class="tech-badge">AWS RDS</span>
-                <span class="tech-badge">Linux</span>
-              </div>
-            </div>
-            
-            <div class="tech-category">
-              <h4 class="h4">Visualization & BI</h4>
-              <div class="tech-badges">
-                <span class="tech-badge">Tableau</span>
-                <span class="tech-badge">Power BI</span>
-                <span class="tech-badge">Matplotlib</span>
-                <span class="tech-badge">Plotly</span>
-              </div>
-            </div>
-            
-          </div>
-        </section>
-
-      </article>
-
-      <!-- RESUME -->
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <div class="download-cv">
-          <a href="Cv_Mohan_Said_CHEURFA_en.pdf" download class="btn-download">
-            <span class="icon">
-              <ion-icon name="cloud-download-outline"></ion-icon>
-            </span>
-            Download my CV
-          </a>
-        </div>
-
-        <!-- EXPERIENCE -->
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">AI Engineer Intern - Albert Data (EdTech)</h4>
-              <span>April 2025 — October 2025 | Paris, France</span>
-              <p class="timeline-text">
-                Developed a sophisticated multi-agent system for adaptive and personalized learning experiences. Automated the generation of training content and learning paths using generative AI technologies. Designed and implemented real-time dashboards enabling dynamic pedagogical adaptation based on learner performance and behavior patterns.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Data Scientist Intern - Cevital</h4>
-              <span>November 2022 — May 2023 | Bejaia, Algeria</span>
-              <p class="timeline-text">
-                Developed and deployed a recommendation system that increased sales by 15% through personalized product suggestions. Built an intelligent chatbot for customer support and created interactive dashboards for executive decision support. Applied advanced predictive analytics techniques to optimize business strategies and improve operational efficiency.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Database Administrator Intern - Sonelgaz</h4>
-              <span>January — March 2021 | Bejaia, Algeria</span>
-              <p class="timeline-text">
-                Optimized database performance, reducing query execution time from minutes to seconds through index optimization and query refactoring. Managed Oracle database infrastructure with automated backup systems and implemented monitoring solutions to ensure high availability and data integrity.
-              </p>
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!-- EDUCATION -->
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">MSc in Data Exploration & Business Intelligence</h4>
-              <span>2024 — 2025 | Sorbonne Paris Nord University, France</span>
-              <p class="timeline-text">
-                Advanced Master's program focusing on data management, machine learning, deep learning, and statistical analysis with a strong emphasis on business requirements. Specialized in modern data architectures (data warehouses, data lakes) and transforming raw data into strategic business insights through predictive modeling and AI exploration.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">MSc in Artificial Intelligence</h4>
-              <span>2021 — 2023 | University of Bejaia, Algeria</span>
-              <p class="timeline-text">
-                Comprehensive study of AI technologies with focus on theoretical foundations and practical implementations. Conducted academic research providing deep understanding of machine learning and deep learning model internals, algorithm design, and optimization techniques.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">BSc in Computer Science</h4>
-              <span>2018 — 2021 | University of Bejaia, Algeria</span>
-              <p class="timeline-text">
-                Foundational education in computer science fundamentals covering programming, algorithms, data structures, databases, and software engineering. Explored various specializations leading to focused interest in artificial intelligence and data science.
-              </p>
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!-- CERTIFICATIONS -->
-        <section class="timeline">
-          
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="ribbon-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Certifications</h3>
-          </div>
-          
-          <ol class="timeline-list">
-            
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">
-                <a href="https://coursera.org/share/1e85329ada9e264fd3d89cf3c7cd39b3" target="_blank" rel="noopener">
-                  Introduction to Data Engineering (IBM)
-                </a>
-              </h4>
-              <span>2024</span>
-              <p class="timeline-text">
-                Skills acquired: Data Science, Database (DBMS), Information Engineering, SQL, NoSQL
-              </p>
-            </li>
-            
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">
-                <a href="https://coursera.org/share/b3208ed6063ab91068bf85e62fb08407" target="_blank" rel="noopener">
-                  Python for Data Science, AI & Development (IBM)
-                </a>
-              </h4>
-              <span>2024</span>
-              <p class="timeline-text">
-                Skills acquired: Data Science, Data Analysis, Python Programming, NumPy, Pandas
-              </p>
-            </li>
-            
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">
-                <a href="https://coursera.org/share/b069899ee7b8e3af12707c4f3f38b069" target="_blank" rel="noopener">
-                  Neural Networks and Deep Learning (DeepLearning.AI)
-                </a>
-              </h4>
-              <span>2024</span>
-              <p class="timeline-text">
-                Skills acquired: Artificial Neural Networks, Backpropagation, Python Programming, Deep Learning, Neural Network Architecture
-              </p>
-            </li>
-            
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">
-                <a href="https://coursera.org/share/3c568b945daf6ebb23b13552628fd4c8" target="_blank" rel="noopener">
-                  Supervised Machine Learning: Regression and Classification (DeepLearning.AI)
-                </a>
-              </h4>
-              <span>2024</span>
-              <p class="timeline-text">
-                Skills acquired: Linear Regression, Regularization to Avoid Overfitting, Logistic Regression for Classification, Gradient Descent, Supervised Learning
-              </p>
-            </li>
-            
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">
-                <a href="https://coursera.org/share/74bee8c507c7ab9e51ffc00de383beb5" target="_blank" rel="noopener">
-                  Advanced Learning Algorithms (DeepLearning.AI)
-                </a>
-              </h4>
-              <span>2024</span>
-              <p class="timeline-text">
-                Skills acquired: TensorFlow, Advice for Model Development, Artificial Neural Networks, XGBoost, Tree Ensembles
-              </p>
-            </li>
-            
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">AWS Data Engineering (In Progress)</h4>
-              <span>2025</span>
-              <p class="timeline-text">
-                Currently pursuing AWS certification for data engineering, focusing on cloud-based data pipelines, ETL processes, and big data solutions.
-              </p>
-            </li>
-            
-          </ol>
-          
-        </section>
-
-        <!-- STATISTICS -->
-        <section class="statistics">
-          <h3 class="h3">Statistics & Achievements</h3>
-
-          <div class="stats-container">
-            <div class="stat-item">
-              <div class="stat-number" data-target="3">0</div>
-              <div class="stat-label">Years of Experience</div>
-              <div class="stat-icon">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
-            </div>
-
-            <div class="stat-item">
-              <div class="stat-number" data-target="15">0</div>
-              <div class="stat-label">Projects Completed</div>
-              <div class="stat-icon">
-                <ion-icon name="folder-outline"></ion-icon>
-              </div>
-            </div>
-
-            <div class="stat-item">
-              <div class="stat-number" data-target="8">0</div>
-              <div class="stat-label">Technologies Mastered</div>
-              <div class="stat-icon">
-                <ion-icon name="code-outline"></ion-icon>
-              </div>
-            </div>
-
-            <div class="stat-item">
-              <div class="stat-number" data-target="100">0</div>
-              <div class="stat-label">Problem Solving</div>
-              <div class="stat-icon">
-                <ion-icon name="bulb-outline"></ion-icon>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- SKILLS -->
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Core Skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Machine Learning & Deep Learning</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">LLMs, RAG & Multi-Agent Systems</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Python Development (TensorFlow, PyTorch, FastAPI, LangChain)</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Data Engineering & ETL Pipelines</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Databases (PostgreSQL, MongoDB, Oracle)</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">MLOps & Cloud (Docker, AWS, Git/GitHub)</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Data Visualization (Tableau, Power BI)</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-        <!-- LANGUAGES -->
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Languages</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">French</h5>
-                <data value="95">C2 - Native/Bilingual</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">English</h5>
-                <data value="80">Professional Working (TOEIC in progress)</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!-- PORTFOLIO -->
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>AI & ML</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Data Engineering</button>
-            </li>
-          </ul>
-
-          <div class="filter-select-box">
-            <button class="filter-select" data-select>
-              <div class="select-value" data-selecct-value>Select category</div>
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-            </button>
-
-            <ul class="select-list">
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>AI & ML</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Data Engineering</button>
-              </li>
-            </ul>
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item active" data-filter-item data-category="ai & ml">
-              <a href="https://github.com/chrfsa/dignosAI" target="_blank" rel="noopener">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/dignosai.png" alt="DiagnosAI" loading="lazy">
-                </figure>
-                <h3 class="project-title">DiagnosAI - Medical Diagnosis Assistant</h3>
-                <p class="project-category">Multi-Agent System • LangGraph • RAG</p>
-                <p class="project-description">
-                  Advanced multi-agent system for medical diagnosis using LangGraph and RAG architecture. Combines multiple specialized AI agents for accurate symptom analysis and diagnostic recommendations.
-                </p>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="ai & ml">
-              <a href="https://github.com/chrfsa/angerlAI" target="_blank" rel="noopener">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/chatbot.png" alt="AngelAI" loading="lazy">
-                </figure>
-                <h3 class="project-title">AngelAI - Intelligent RAG Chatbot</h3>
-                <p class="project-category">NLP • LangChain • Vector Database</p>
-                <p class="project-description">
-                  Conversational chatbot using Retrieval-Augmented Generation for precise, context-aware responses based on custom document knowledge bases. Built with LangChain and vector embeddings.
-                </p>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="ai & ml">
-              <a href="https://github.com/chrfsa/sentiments_analysis" target="_blank" rel="noopener">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/sa.png" alt="Sentiment Analysis" loading="lazy">
-                </figure>
-                <h3 class="project-title">Sentiment Analysis with Transformers</h3>
-                <p class="project-category">NLP • Transfer Learning • BERT</p>
-                <p class="project-description">
-                  Fine-tuned transformer model for sentiment analysis using transfer learning. Achieves high accuracy in classifying text sentiment across multiple languages and domains.
-                </p>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="ai & ml">
-              <a href="https://github.com/chrfsa/cancer_predict_with_ml.git" target="_blank" rel="noopener">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/cancer.png" alt="Cancer Prediction" loading="lazy">
-                </figure>
-                <h3 class="project-title">Cancer Prediction ML Model</h3>
-                <p class="project-category">Machine Learning • Streamlit • Healthcare</p>
-                <p class="project-description">
-                  Machine learning model for tumor classification with an interactive Streamlit interface. Implements multiple ML algorithms with feature engineering and model comparison.
-                </p>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="data engineering">
-              <a href="https://github.com/chrfsa/postgres_with_bash" target="_blank" rel="noopener">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/postgresql.jpg" alt="PostgreSQL Automation" loading="lazy">
-                </figure>
-                <h3 class="project-title">PostgreSQL Database Automation</h3>
-                <p class="project-category">Database • Shell Scripting • Automation</p>
-                <p class="project-description">
-                  Automated PostgreSQL database management using shell scripts. Includes backup automation, query optimization, and database monitoring solutions.
-                </p>
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!-- BLOG -->
-      <!-- BLOG -->
-<article class="blog" data-page="blog">
+  
+  <!-- Custom Cursor -->
+  <div class="cursor-inner" id="cursor-inner"></div>
+  <div class="cursor-outer" id="cursor-outer"></div>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <header>
-    <h2 class="h2 article-title">Blog</h2>
+    <!-- Navbar -->
+    <div class="navbar" id="navbar">
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home">&#60;/Home&#62;</a>
+          </li>
+          <li class="about" data-aos="fade-down" data-aos-delay="200">
+            <a href="#about">&#60;/About&#62;</a>
+          </li>
+          <li class="resume" data-aos="fade-down" data-aos-delay="300">
+            <a href="#resume">&#60;/Resume&#62;</a>
+          </li>
+          <li class="portfolio" data-aos="fade-down" data-aos-delay="400">
+            <a href="#portfolio">&#60;/Portfolio&#62;</a>
+          </li>
+          <li class="blog" data-aos="fade-down" data-aos-delay="500">
+            <a href="#blog">&#60;/Blog&#62;</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Theme Toggle -->
+      <div class="setting-container" id="setting-container">
+        <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
+        <label for="switchforsetting" class="needtobeinvert" id="labelforsetting"></label>
+
+        <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+          <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
+          <label for="switchforvisualmode" id="labelforvisualmode"></label>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <section class="blog-posts">
-
-    <ul class="blog-posts-list">
-
-      <li class="blog-post-item">
-        <a href="https://medium.com/@chrfsa19/mcp-client-tutorial-connect-to-any-mcp-server-in-5-minutes-mcp-client-part2-dcab2f558564" target="_blank" rel="noopener">
-
-          <figure class="blog-banner-box">
-            <img src="./assets/images/blog2.png" alt="MCP Client Tutorial" loading="lazy">
-          </figure>
-
-          <div class="blog-content">
-
-            <div class="blog-meta">
-              <p class="blog-category">AI Development</p>
-
-              <span class="dot"></span>
-
-              <time datetime="2025">2025</time>
-            </div>
-
-            <h3 class="h3 blog-item-title">MCP Client Tutorial: Connect to Any MCP Server in 5 Minutes (Part 2)</h3>
-
-            <p class="blog-text">
-              Learn how to build and connect MCP clients to any MCP server in just 5 minutes. A comprehensive tutorial covering the practical implementation of Model Context Protocol clients with step-by-step guidance and real-world examples.
-            </p>
-
-          </div>
-
-        </a>
-      </li>
-
-      <li class="blog-post-item">
-        <a href="https://medium.com/@chrfsa19/mcp-function-calling-standardization-just-for-tools-d08c2d307713" target="_blank" rel="noopener">
-
-          <figure class="blog-banner-box">
-            <img src="./assets/images/blog1.jpeg" alt="MCP Function Calling" loading="lazy">
-          </figure>
-
-          <div class="blog-content">
-
-            <div class="blog-meta">
-              <p class="blog-category">AI Development</p>
-
-              <span class="dot"></span>
-
-              <time datetime="2025">2025</time>
-            </div>
-
-            <h3 class="h3 blog-item-title">MCP & Function Calling: Standardization Just for Tools?</h3>
-
-            <p class="blog-text">
-              Deep dive into the Model Context Protocol (MCP) and function calling standardization. Exploring how MCP is revolutionizing tool integration for LLMs and whether it's truly just about tools or something more fundamental.
-            </p>
-
-          </div>
-
-        </a>
-      </li>
-
-    </ul>
-
-  </section>
-
-</article>
-
+  <main>
+    <!-- Hamburger Menu -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
     </div>
 
+    <!-- Mobile Menu -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home">&#60;/Home&#62;</a>
+        </li>
+        <li class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about">&#60;/About&#62;</a>
+        </li>
+        <li class="mobile-navbar-tabs-li resume" onclick="hidemenubyli()">
+          <a href="#resume">&#60;/Resume&#62;</a>
+        </li>
+        <li class="mobile-navbar-tabs-li portfolio" onclick="hidemenubyli()">
+          <a href="#portfolio">&#60;/Portfolio&#62;</a>
+        </li>
+        <li class="mobile-navbar-tabs-li blog" onclick="hidemenubyli()">
+          <a href="#blog">&#60;/Blog&#62;</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- HOME / Landing Page -->
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">H</p>
+          <p class="jello">i</p>
+          <p class="jello">!</p>
+          &nbsp;
+          <p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">M</p>
+          <p class="jello">o</p>
+          <p class="jello">h</p>
+          <p class="jello">a</p>
+          <p class="jello">n</p>
+          <p class="jello">d</p>
+          &nbsp;
+          <p class="jello">S</p>
+          <p class="jello">a</p>
+          <p class="jello">i</p>
+          <p class="jello">d</p>
+        </article>
+
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <p class="jello">A</p>
+          <p class="jello">I</p>
+          &nbsp;
+          <p class="jello">E</p>
+          <p class="jello">n</p>
+          <p class="jello">g</p>
+          <p class="jello">i</p>
+          <p class="jello">n</p>
+          <p class="jello">e</p>
+          <p class="jello">e</p>
+          <p class="jello">r</p>
+        </article>
+
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          AI Engineer & Data Scientist passionate about building production-ready AI systems. 
+          I architect scalable solutions where artificial intelligence, software engineering, 
+          and data engineering converge to create real business impact.
+          <br /><br />
+          I value clean code, thoughtful architecture, and intelligent models that make a difference.
+        </p>
+
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <a href="https://chat.msaid-cheurfa.dev" target="_blank" class="chat-btn">
+            <div class="chat-btn-text">Chat with me</div>
+            <div class="chat-btn-BG"></div>
+          </a>
+
+          <button class="resume-btn" onclick="openResumePDF()">
+            <div class="sign">
+              <svg viewBox="0 0 640 512">
+                <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+              </svg>
+            </div>
+            <div class="text">Resume</div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT Section -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article">&#60;/About&#62;</h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p>
+              <strong>AI Engineer & Data Scientist</strong> passionate about building production-ready AI systems that transcend proof-of-concepts. I architect scalable solutions where artificial intelligence, software engineering, and data engineering converge to create real business impact.
+            </p>
+            <br />
+            <p>
+              My core belief: <em>"AI is powerless alone—it's the trinity of quality data, intelligent models, and robust software architecture that creates exceptional products."</em> I don't just train models; I engineer complete AI systems designed for scale, maintainability, and production excellence.
+            </p>
+            <br />
+            <p>
+              I thrive at the intersection of three disciplines: crafting machine learning solutions, building solid software architectures, and engineering data pipelines that fuel AI. My passion lies in integrating AI seamlessly into products through MLOps best practices.
+            </p>
+          </div>
+
+          <div class="dp" data-aos="fade-up">
+            <img src="./assets/images/my-avatar.png" alt="Mohand Said Cheurfa" />
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="services-section">
+          <h3 class="services-heading">What I do</h3>
+          
+          <div class="services-grid">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-icon">🚀</div>
+              <h4>AI Engineering</h4>
+              <p>End-to-end AI solution design and deployment: from prototyping to production with MLOps best practices.</p>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-icon">📊</div>
+              <h4>Data Science</h4>
+              <p>Exploratory analysis, predictive modeling, and actionable insights extraction to drive data-informed decisions.</p>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-icon">🔧</div>
+              <h4>Data Engineering</h4>
+              <p>Robust and scalable data pipeline architecture: ETL, data lakes, data warehouses, and real-time streaming.</p>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-icon">🤖</div>
+              <h4>ML/DL Development</h4>
+              <p>Custom model development: NLP, Computer Vision, LLMs, RAG systems, and multi-agent architectures.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME Section -->
+    <section class="resume-section-container" id="resume">
+      <div class="resume-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article">&#60;/Resume&#62;</h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="tech-stack-section">
+          <h3 class="tech-heading" data-aos="fade-up">Tech Stack</h3>
+          
+          <div class="tech-category-wrapper">
+            <div class="tech-category" data-aos="fade-up">
+              <h4>ML & Deep Learning</h4>
+              <ul class="tech-stack-wrapper">
+                <li class="tech-stack-box">
+                  <span class="tech-badge">TensorFlow</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">PyTorch</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">Scikit-learn</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">Keras</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">XGBoost</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="100">
+              <h4>LLMs & AI Frameworks</h4>
+              <ul class="tech-stack-wrapper">
+                <li class="tech-stack-box">
+                  <span class="tech-badge">LangChain</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">LangGraph</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">CrewAI</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">OpenAI</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">RAG</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+              <h4>Data & Cloud</h4>
+              <ul class="tech-stack-wrapper">
+                <li class="tech-stack-box">
+                  <span class="tech-badge">Python</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">PostgreSQL</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">MongoDB</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">Docker</span>
+                </li>
+                <li class="tech-stack-box">
+                  <span class="tech-badge">AWS</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="experience-section">
+          <h3 class="experience-heading" data-aos="fade-up">Experience</h3>
+          
+          <div class="timeline-wrapper">
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>AI Engineer Intern</h4>
+                <span class="timeline-period">Albert Data (EdTech) | April 2025 — October 2025</span>
+                <p>Developed a sophisticated multi-agent system for adaptive learning. Automated training content generation using generative AI. Designed real-time dashboards for dynamic pedagogical adaptation.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Data Scientist Intern</h4>
+                <span class="timeline-period">Cevital | November 2022 — May 2023</span>
+                <p>Developed recommendation system increasing sales by 15%. Built intelligent chatbot for customer support. Created interactive dashboards for executive decision support.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Database Administrator Intern</h4>
+                <span class="timeline-period">Sonelgaz | January — March 2021</span>
+                <p>Optimized database performance, reducing query execution time from minutes to seconds. Managed Oracle database infrastructure with automated backup systems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education-section">
+          <h3 class="education-heading" data-aos="fade-up">Education</h3>
+          
+          <div class="timeline-wrapper">
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>MSc in Data Exploration & Business Intelligence</h4>
+                <span class="timeline-period">Sorbonne Paris Nord University | 2024 — 2025</span>
+                <p>Advanced Master's focusing on data management, machine learning, deep learning, and statistical analysis with business emphasis.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>MSc in Artificial Intelligence</h4>
+                <span class="timeline-period">University of Bejaia | 2021 — 2023</span>
+                <p>Comprehensive study of AI technologies with focus on theoretical foundations and practical implementations.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>BSc in Computer Science</h4>
+                <span class="timeline-period">University of Bejaia | 2018 — 2021</span>
+                <p>Foundational education covering programming, algorithms, data structures, databases, and software engineering.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO Section -->
+    <section class="portfolio-section-container" id="portfolio">
+      <div class="portfolio-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article">&#60;/Portfolio&#62;</h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card" data-aos="fade-up">
+            <div class="project-image">
+              <img src="./assets/images/dignosai.png" alt="DiagnosAI" />
+            </div>
+            <div class="project-content">
+              <h3>DiagnosAI</h3>
+              <p class="project-tags">Multi-Agent System • LangGraph • RAG</p>
+              <p class="project-description">Advanced multi-agent system for medical diagnosis using LangGraph and RAG architecture.</p>
+              <a href="https://github.com/chrfsa/dignosAI" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="./assets/images/chatbot.png" alt="AngelAI" />
+            </div>
+            <div class="project-content">
+              <h3>AngelAI</h3>
+              <p class="project-tags">NLP • LangChain • Vector DB</p>
+              <p class="project-description">Intelligent RAG chatbot for precise, context-aware responses based on custom knowledge bases.</p>
+              <a href="https://github.com/chrfsa/angerlAI" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img src="./assets/images/sa.png" alt="Sentiment Analysis" />
+            </div>
+            <div class="project-content">
+              <h3>Sentiment Analysis</h3>
+              <p class="project-tags">NLP • Transfer Learning • BERT</p>
+              <p class="project-description">Fine-tuned transformer model for sentiment analysis using transfer learning.</p>
+              <a href="https://github.com/chrfsa/sentiments_analysis" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-image">
+              <img src="./assets/images/cancer.png" alt="Cancer Prediction" />
+            </div>
+            <div class="project-content">
+              <h3>Cancer Prediction</h3>
+              <p class="project-tags">Machine Learning • Streamlit • Healthcare</p>
+              <p class="project-description">ML model for tumor classification with interactive Streamlit interface.</p>
+              <a href="https://github.com/chrfsa/cancer_predict_with_ml.git" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG Section -->
+    <section class="blog-section-container" id="blog">
+      <div class="blog-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article">&#60;/Blog&#62;</h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="blog-grid">
+          <div class="blog-card" data-aos="fade-up">
+            <div class="blog-image">
+              <img src="./assets/images/blog2.png" alt="MCP Client Tutorial" />
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">AI Development</span>
+              <h3>MCP Client Tutorial: Connect to Any MCP Server in 5 Minutes</h3>
+              <p>Learn how to build and connect MCP clients with step-by-step guidance and real-world examples.</p>
+              <a href="https://medium.com/@chrfsa19/mcp-client-tutorial-connect-to-any-mcp-server-in-5-minutes-mcp-client-part2-dcab2f558564" target="_blank" class="blog-link">Read More →</a>
+            </div>
+          </div>
+
+          <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="blog-image">
+              <img src="./assets/images/blog1.jpeg" alt="MCP Function Calling" />
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">AI Development</span>
+              <h3>MCP & Function Calling: Standardization Just for Tools?</h3>
+              <p>Deep dive into Model Context Protocol and function calling standardization for LLMs.</p>
+              <a href="https://medium.com/@chrfsa19/mcp-function-calling-standardization-just-for-tools-d08c2d307713" target="_blank" class="blog-link">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- Custom JS -->
-  <script src="./assets/js/script.js"></script>
+  <!-- Footer -->
+  <footer id="footer">
+    <button class="backtotopbutton" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article>↑ BACK TO TOP</article>
+    </button>
 
-  <!-- Ionicon -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
 
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article>"Learning, Living, and Leveling Up."</article>
+        </div>
+
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>GetInTouch();</article>
+          </div>
+
+          <div class="logos">
+            <a href="https://www.linkedin.com/in/mohand-said-cheurfa-5b63aa1ba/" target="_blank">
+              <svg class="SocialHandle" viewBox="0 0 448 512">
+                <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+              </svg>
+            </a>
+
+            <a href="https://github.com/chrfsa" target="_blank">
+              <svg class="SocialHandle" viewBox="0 0 496 512">
+                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg>
+            </a>
+
+            <a href="mailto:contact@msaid-cheurfa.dev">
+              <svg class="SocialHandle" id="GmailLogo" viewBox="0 0 512 512">
+                <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <article>Design & Built by Mohand Said Cheurfa</article>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+  
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
+
