@@ -3,16 +3,16 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap location
 Sitemap: https://portfolio.msaid-cheurfa.dev/sitemap.xml
 
-# Disallow specific paths (if any)
-Disallow: /assets/
-Disallow: /*.pdf$
-
-# Allow CSS and JS files
+# Allow crawling of all static assets for proper rendering
 Allow: /assets/css/
 Allow: /assets/js/
+Allow: /assets/images/
 
-# Crawl delay
+# Allow CV/Resume PDF
+Allow: /Cv_Mohan_Said_CHEURFA_en.pdf
+
+# Crawl-delay for polite crawling
 Crawl-delay: 1
